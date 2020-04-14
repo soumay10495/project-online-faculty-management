@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Online Faculty Management</title>
   </head>
   <body>
-  $END$
+  <form action="redirect" method="post">
+    <input type="submit" value="Add" name="operation"><br>
+    <input type="submit" value="Delete" name="operation"><br>
+    <input type="submit" value="Update" name="operation"><br>
+    <input type="submit" value="Display" name="operation"><br>
+  </form>
+  <br><br>
   </body>
 </html>

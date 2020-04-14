@@ -1,73 +1,73 @@
 package com.bean;
 
 public class Faculty {
-    private int id;
+    private Integer id;
     private String name;
     private String address;
     private String stream;
-    private double salary;
-    private int years_of_experience;
-    private long phoneno;
+    private Double salary;
+    private Integer years_of_experience;
+    private Long phoneno;
     private String grade;
 
-    public int getId(){
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public String getAddress(){
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
         return address;
     }
 
-    public String getStream(){
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getStream() {
         return stream;
     }
 
-    public double getSalary(){
+    public void setStream(String stream) {
+        this.stream = stream;
+    }
+
+    public Double getSalary() {
         return salary;
     }
 
-    public int getYears_of_experience(){
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
+    public Integer getYears_of_experience() {
         return years_of_experience;
     }
 
-    public long getPhoneno(){
+    public void setYears_of_experience(Integer years_of_experience) {
+        this.years_of_experience = years_of_experience;
+    }
+
+    public Long getPhoneno() {
         return phoneno;
     }
 
-    public String getGrade(){
+    public void setPhoneno(Long phoneno) {
+        this.phoneno = phoneno;
+    }
+
+    public String getGrade() {
         return grade;
-    }
-
-    public void setId(int id){
-        this.id=id;
-    }
-
-    public void setName(String name){
-        this.name=name;
-    }
-
-    public void setAddress(String address){
-        this.address=address;
-    }
-
-    public void setStream(String stream){
-        this.stream=stream;
-    }
-
-    public void setSalary(double salary){
-        this.salary=salary;
-    }
-
-    public void setYears_of_experience(int years_of_experience){
-        this.years_of_experience=years_of_experience;
-    }
-
-    public void setPhoneno(long phoneno){
-        this.phoneno=phoneno;
     }
 
     public void setGrade(String grade) {

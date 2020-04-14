@@ -11,12 +11,12 @@ public class FacultyDao {
         return d.addFaculty(f);
     }
 
-    public boolean removeFaculty(int id){
+    public boolean removeFaculty(Integer id){
         Dao d=new Dao();
         return d.removeFaculty(id);
     }
 
-    public boolean updateFaculty(int id, String address){
+    public boolean updateFaculty(Integer id, String address){
         Dao d= new Dao();
         return d.updateFaculty(id,address);
     }

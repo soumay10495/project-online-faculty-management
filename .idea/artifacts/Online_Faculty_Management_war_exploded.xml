@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Online Faculty Management" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../ojdbc8.jar" />
+        </element>
       </element>
     </root>
   </artifact>
